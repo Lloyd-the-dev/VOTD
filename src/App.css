@@ -1,0 +1,33 @@
+body{
+  background-image: url("../public/bible-2.jpg");
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10rem;
+  color: #F1EFF0;
+}
+
+.container{
+   width: 50%;
+   margin: 4rem auto;
+   text-align: center;
+}
+.container h3{
+   background-color: #F29D52;
+   padding: .5rem;
+   width: 30%;
+   margin: 0 auto;
+}
+@media (max-width: 700px){
+   body{
+    background-image: url("../public/bible-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   }
+   .container{
+      width: 90%;
+   }
+   .container h3{
+    padding: 1rem;
+   }
+}
